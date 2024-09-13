@@ -10,7 +10,6 @@ public class ReverseAnumber {
 		while(num!=0)     //rem--> 1 , store--> rev= 4321,
 		{
 			int rem=num%10;   //get the last digit , not removing
-			
 			rev=rev*10+rem;  //to store the last value as well;
 			num=num/10;    //remove the last digit 
 			
