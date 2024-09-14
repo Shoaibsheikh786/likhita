@@ -33,7 +33,7 @@ public class Array4 {
 		//print only odd numbers from an array
 		//addition of two arrays 
 		//create an array of float numbers and print the 
-		//_values with the values with for each loop 
+		//_values with  with for each loop 
 		
 		//break the program if array contains even number
 		//break the program if array contains odd number
