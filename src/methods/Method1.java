@@ -1,5 +1,12 @@
 package methods;
 
+class A
+{
+	void hello()
+	{
+		System.out.println("hello world ");
+	}
+}
 public class Method1 {
 	
 	//1. -->  method1 
@@ -15,6 +22,9 @@ static  void  myMethod()            //return type  , methodnmae()
   
 	
 	public static void main(String[] args) {
+		 
+		
+		
 		
 		System.out.println("hello java ");
 		myMethod();      //calling a methods
