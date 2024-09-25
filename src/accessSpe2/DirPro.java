@@ -14,6 +14,7 @@ public class DirPro extends ClassA {
 		pro=6;  //pro can be acccess via sub class
 	}
 
+	/***/
 	public static void main(String[] args) {
     
 		//1. Directly to use/access in different package
