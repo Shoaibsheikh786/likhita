@@ -11,6 +11,8 @@ package abstractions;
 interface RBI {
 	
 //	int a=14;  //100%
+	
+	int a=14;
   	void credit(); // no body //no logic //default abstract, public 
 
 public	abstract void debit(); // no body
@@ -28,8 +30,8 @@ class pnb implements RBI
 
 	@Override
 	public void credit() {
-		
-		System.out.println("Credit logic for pnb");
+	//	a=15;   defalut final 
+		System.out.println("Credit logic for pnb"+a);
 	}
 
 	@Override
